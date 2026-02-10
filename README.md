@@ -1,11 +1,14 @@
 # Part 1: Hand Gesture Recognition using B-mode Ultrasound Images
 
-Dataset: 
-* B-mode ultrasound videos collected during experimentation of 13 finger gestures
-* The finger gestures contain extension, flexion of each finger and alltogether, and a rest state
-* Two datasets were generated:
-  - Dataset 1: 130 samples obtained from one hand 
-  - Dataset 2: 384 samples obtained from both hands
+Dataset:
+* B-mode ultrasound videos collected during experimentation of 13 finger gestures.
+* The gesture set includes individual finger flexion and extension, combined finger movements, and a rest state.
+
+Two datasets were generated:
+* Dataset 1: 130 video samples acquired from a single hand.
+* Dataset 2: 384 video samples acquired from both hands.
+
+Each video consists of frames with spatial dimensions of 610 × 342 pixels.
 
 The videos were processed with the use of OpenCV functions and numpy library led to the following data represantations:
 * Activity maps (deformation maps)
